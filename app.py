@@ -30,4 +30,23 @@ if dados:
       st.table(df)
 else:
   st.info("Carregue um ficheiro Excel para começar")
+
+if menu =0"Início":
+  with st.expander("**Sobre o Instituto Nacional de Estatística**"):
+    st.write("Acesse o site www.ine.cv")
+    st.image("INE.png")
+
+
+if menu == "Widgets":
+  bt = st.button("Dê um clique!")
+
+  if bt:
+    st.info("Clicaste num botão acima!")
+
+  sd = st.slider("Mova o ponto so slider!", min_value=25, \
+              max_value=35, alue=30, step=1
+              )
+
+  texto = f"Eu tenho {sd} anos!"
+  st.success(texto)
   
