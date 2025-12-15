@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 
 st.header( "introduzindo os elementos do streamlit")
 menu = option_menu (menu_title="Menu",
-                    options=["Início", "Gráficos Estatísticos", "Gráficos Dinâmicos", "Widgest", "Formulário"],
+                    options=["Início", "Gráficos Estatísticos", "Gráficos Dinâmicos", "Widget", "Formulário"],
                     icons=["house-fill", "bar-chart", "bar-chart-line", "toggles", "bar-chart"],
                     menu_icon="cast",
                     default_index=0,
@@ -37,7 +37,7 @@ if menu == "Início":
     st.image("INE.png")
 
 
-if menu == "Widgets":
+if menu == "Widget":
   bt = st.button("Dê um clique!")
   if bt:
     st.info("Clicaste num botão acima!")
