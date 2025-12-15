@@ -1,2 +1,2 @@
 import streamlit as st
-st.header( "introduzindo os elementos do smtreamlit")
+st.header( "introduzindo os elementos do streamlit")
