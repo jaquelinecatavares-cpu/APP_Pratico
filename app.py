@@ -34,7 +34,7 @@ else:
 if menu == "Início":
   with st.expander("**Sobre o Instituto Nacional de Estatística**"):
     st.write("Acesse o site www.ine.cv")
-    #st.image("INE.png")
+    st.image("INE.png")
 
 
 if menu == "Widgets":
@@ -44,7 +44,7 @@ if menu == "Widgets":
     st.info("Clicaste num botão acima!")
 
   sd = st.slider("Mova o ponto so slider!", min_value=25, \
-              max_value=35, alue=30, step=1
+              max_value=35, value=30, step=1
               )
 
   texto = f"Eu tenho {sd} anos!"
