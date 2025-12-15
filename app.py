@@ -34,7 +34,7 @@ else:
 if menu == "Início":
   with st.expander("**Sobre o Instituto Nacional de Estatística**"):
     st.write("Acesse o site www.ine.cv")
-    st.image("INE.png")
+    #st.image("INE.png")
 
 
 if menu == "Widgets":
